@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay"></div>
+      <h3>Welcome to tic tac toe game</h3>
+      <div class="square">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+      <div class="win-Massage" onclick="CheckingTheWinner(uls)">
+        <p>the player <span></span> is the winner</p>
+        <button>restart</button>
+      </div>
+      <div class="draw-Massage">
+        <p>the result is draw</p>
+        <button>restart</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
